@@ -36,7 +36,7 @@ The Text Editor Application is a simple yet powerful web-based tool designed for
 5. *Modify Styles (Optional)*:
    - Open styles.css to customize the appearance of the editor, buttons, and notes/posts.
 
-![Text Editor Screenshot](screenshot.png) <!-- Replace with an actual screenshot of your application -->
+![Text Editor Screenshot](https://github.com/aniketavchar/blog-website/blob/main/text%20editor.png?raw=true) <!-- Replace with an actual screenshot of your application -->
 ![Text area and editor](screenshot.png)
 
 ## Technical Details
