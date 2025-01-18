@@ -19,8 +19,7 @@ The Text Editor Application is a simple yet powerful web-based tool designed for
 
 1. *Clone the Repository*:
    bash
-   git clone https://github.com/yourusername/text-editor-app.git
-   cd text-editor-app
+   git clone https: https://aniketavchar.github.io/blog-website/
    
 2. *Open the Application*:
    Open index.html in your web browser.
