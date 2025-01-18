@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Management Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Management Platform</h1>
+    </header>
+    
+    <main>
+        <section id="note-taking">
+            <h2>Note Taking</h2>
+            <textarea id="noteInput" placeholder="Jot down your ideas..."></textarea>
+            <button id="saveNote">Save Note</button>
+            <div id="notes"></div>
+        </section>
+
+        <section id="text-editor">
+            <h2>Text Editor</h2>
+            <div class="toolbar">
+                <button onclick="formatText('bold')"><strong>B</strong></button>
+                <button onclick="formatText('italic')"><em>I</em></button>
+                <button onclick="formatText('underline')"><u>U</u></button>
+                <button onclick="formatText('insertOrderedList')">OL</button>
+                <button onclick="formatText('insertUnorderedList')">UL</button>
+                <select onchange="formatText('formatBlock', this.value)">
+                    <option value="">Format</option>
+                    <option value="h1">Heading 1</option>
+                    <option value="h2">Heading 2</option>
+                    <option value="h3">Heading 3</option>
+                </select>
+            </div>
+            <div id="editor" contenteditable="true" placeholder="Write your blog post..."></div>
+            <button id="savePost">Save Post</button>
+        </section>
+
+        <section id="savedPosts">
+            <h2>Saved Posts</h2>
+            <div id="posts"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
