@@ -38,6 +38,7 @@ The Text Editor Application is a simple yet powerful web-based tool designed for
 
 ![Text Editor Screenshot](https://github.com/aniketavchar/blog-website/blob/main/text%20editor.png?raw=true) <!-- Replace with an actual screenshot of your application -->
 ![Text area and editor](screenshot.png)
+![Saved notes and post](https://github.com/aniketavchar/blog-website/blob/main/Saved%20notes%20and%20post.png?raw=true)
 
 ## Technical Details
 
